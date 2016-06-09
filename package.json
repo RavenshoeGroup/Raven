@@ -4,6 +4,7 @@
   "description": "Facebook Chat App",
   "dependencies": {
     "express": "^4.6.1",
-    "body-parser": "^1.15.1"
+    "body-parser": "^1.15.1",
+    "request": "^2.72.0"
   }
 }
