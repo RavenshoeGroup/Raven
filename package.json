@@ -1,8 +1,9 @@
- {
+{
   "name": "socket-chat-example",
   "version": "0.0.1",
   "description": "Facebook Chat App",
   "dependencies": {
-    "express": "^4.6.1"
+    "express": "^4.6.1",
+    "body-parser": "^1.15.1"
   }
 }
