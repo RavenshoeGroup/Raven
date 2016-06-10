@@ -40,7 +40,6 @@ app.post('/webhook/', function (req, res) {
         if (event.message && event.message.text) {
             text = event.message.text
             if (text === 'hi') {
-                console.log('said hi')
                 sendGenericMessage(sender)
                 continue
             }
@@ -145,7 +144,7 @@ function sendGenericMessage(sender) {
         }
     }
     request({
-        url: 'https://graph.facebook.com/v2.6/me/subscribed_apps',
+        url: 'https://graph.facebook.com/v2.6/me/...',
         qs: {access_token:token},
         method: 'POST',
         json: {
