@@ -63,7 +63,7 @@ function sendTextMessage(sender, text) {
         text:text
     }
     request({
-        url: 'https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=',
+        url: 'https://graph.facebook.com/v2.6/me/subscribed_apps',
         qs: {access_token:token},
         method: 'POST',
         json: {
