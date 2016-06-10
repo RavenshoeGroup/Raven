@@ -40,6 +40,7 @@ app.post('/webhook/', function (req, res) {
         if (event.message && event.message.text) {
             text = event.message.text
             if (text === 'hi') {
+                console.log('said hi')
                 sendGenericMessage(sender)
                 continue
             }
