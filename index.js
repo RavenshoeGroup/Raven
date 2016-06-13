@@ -91,7 +91,7 @@ function sendGenericMessage(sender) {
                 "elements": [{
                     "title": "Need Help With Marketing?",
                     "subtitle": "Check Us Out!",
-                    "image_url": "http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/...",
+                    "image_url": "http://rsg.ravenshoegroup.netdna-cdn.com/_images/rsg-logo-retina.png",
                     "buttons": [{
                         "type": "web_url",
                         "url": "http://www.ravenshoegroup.com/",
